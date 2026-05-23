@@ -23,23 +23,23 @@ Each polynomial expression is broken into individual terms. These terms are stor
 - Outputs results in standard mathematical form
 
 ## Example Input
-| 3x^2 + 2x + 1 dx
-2 | 1 1x^-2 + 3x + 4 dx
-1| 2 1x^3 - 4x dx
-1|2 10x^-2 - 3x^10 + 4x^3 dx
-1 |2 0x^5 + 0x^3 + 0x^0 + 0x dx
-1| 2 5x^5 + 0 dx 
-|5x^5 + 0x^0 dx 
+- | 3x^2 + 2x + 1 dx
+- 2 | 1 1x^-2 + 3x + 4 dx
+- 1| 2 1x^3 - 4x dx
+- 1|2 10x^-2 - 3x^10 + 4x^3 dx
+- 1 |2 0x^5 + 0x^3 + 0x^0 + 0x dx
+- 1| 2 5x^5 + 0 dx 
+- |5x^5 + 0x^0 dx 
 
 
 ## Example Output
-x^3 + x^2 + x + C
-(3/2)x^2 + 4x - x^-1, 2|1 = -9.000
-(1/4)x^4 - 2x^2, 1|2 = -2.250
-(-3/11)x^11 + x^4 - 10x^-1, 1|2 = -538.273
-0, 1|2 = 0.000
-(5/6)x^6, 1|2 = 52.500
-(5/6)x^6 + C
+- x^3 + x^2 + x + C
+- (3/2)x^2 + 4x - x^-1, 2|1 = -9.000
+- (1/4)x^4 - 2x^2, 1|2 = -2.250
+- (-3/11)x^11 + x^4 - 10x^-1, 1|2 = -538.273
+- 0, 1|2 = 0.000
+- (5/6)x^6, 1|2 = 52.500
+- (5/6)x^6 + C
 
 ## How to Compile
 Compile the project using g++:
