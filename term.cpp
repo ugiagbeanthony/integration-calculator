@@ -1,14 +1,5 @@
 #include "Term.h"
 #include <cmath>
-// #include <iostream>
-// ill need a function to put my fraction coeff in lowest terms
-// ill need a function to add my fraction coeff of same exp
-
-/*Term::Term() { //when there isnt an exponent
-    this->numerator = 1;
-    this->denominator = 1;
-    this->expon = 1;
-}*/
 
 Term::Term()
 {
